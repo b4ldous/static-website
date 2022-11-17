@@ -75,15 +75,15 @@ function App(props) {
               <Toolbar>
 
                   <Box sx={{ml: "5px"}}> <AnchorLink href="#header">
-                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgb(0,0,0)", //Browsers antiguos
+                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgba(0,0,0, .5)", //Browsers antiguos
  color: "white"}}>Productos</Box>
                 </AnchorLink></Box>
                   <Box sx={{ml: "5px"}}> <AnchorLink href="#body">
-                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgb(0,0,0)", //Browsers antiguos
+                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgba(0,0,0, .5)", //Browsers antiguos
  color: "white"}} >Galeria</Box>
                 </AnchorLink></Box>
                   <Box sx={{ml: "5px"}}><AnchorLink href="#footer">
-                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", backgroundColor: "rgb(0,0,0)", //Browsers antiguos
+                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", backgroundColor: "rgba(0,0,0, .5)", //Browsers antiguos
  color: "white"}}>Contacto</Box>
                 </AnchorLink></Box>
 
