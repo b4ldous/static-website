@@ -12,6 +12,7 @@ import Container from '@mui/material/Container';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Fade from '@mui/material/Fade';
+import Main from './sections/Main';
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -66,7 +67,8 @@ function App(props) {
     <>
 
 <CssBaseline />
-      <AppBar>
+<Main/>
+      <AppBar color='transparent' elevation={0}>
         <Toolbar>
           
           <h2 align="center">
@@ -83,7 +85,11 @@ function App(props) {
         </Toolbar>
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
+      
+     
+      
       <Container>
+        
       
         <WelcomePage/>
       </Container>
