@@ -1,15 +1,27 @@
+import { Box } from '@mui/material'
 import React from 'react'
 import Lorem from '../Lorem'
 
 const Footer = () => {
   return (
-    <div id='footer'>Footer
+    <>
+    <Box id='footer'>
+      <br></br>
+      <Box sx={{marginTop: {xs:"50px", md: "100px"}}}>
+      Contacto
     <Lorem/>
     <Lorem/>
     <Lorem/>
     <Lorem/>
+
+
+      </Box>
+     
     
-    </div>
+    </Box>
+    
+    </>
+    
   )
 }
 

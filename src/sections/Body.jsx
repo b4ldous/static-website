@@ -1,21 +1,30 @@
 import React from 'react'
 import Lorem from '../Lorem'
+import Box from "@mui/material/Box"
 
 const Body = () => {
   return (
-    <div id='body'>
+    <Box id='body'>
+      <br></br>
+      <Box sx={{marginTop: {xs:"50px", md: "100px"}}}>
+      Galeria
+    
+    <Lorem/>
+    <Lorem/>
+    <Lorem/>
+    <Lorem/>
+    <Lorem/>
+
+
+
+      </Box>
         
-        Body
-    
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
+        
     
     
-    </div>
-  )
+    </Box>);
+
+
 }
 
 export default Body

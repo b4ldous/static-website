@@ -13,11 +13,10 @@ import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Fade from "@mui/material/Fade";
 import Main from "./sections/Main";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 import FacebookIcon from "@mui/icons-material/Facebook";
-import EmailIcon from "@mui/icons-material/Email";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { Typography } from "@mui/material";
+import { IconButton } from "@mui/material";
+
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -74,21 +73,34 @@ function App(props) {
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
             <Box>
               <Toolbar>
-                <AnchorLink href="#header">
-                  <button>Header</button>
-                </AnchorLink>
-                <AnchorLink href="#body">
-                  <button>Body</button>
-                </AnchorLink>
-                <AnchorLink href="#footer">
-                  <button>Footer</button>
-                </AnchorLink>
+
+                  <Box sx={{ml: "5px"}}> <AnchorLink href="#header">
+                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgb(0,0,0)", //Browsers antiguos
+ color: "white"}}>Productos</Box>
+                </AnchorLink></Box>
+                  <Box sx={{ml: "5px"}}> <AnchorLink href="#body">
+                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgb(0,0,0)", //Browsers antiguos
+ color: "white"}} >Galeria</Box>
+                </AnchorLink></Box>
+                  <Box sx={{ml: "5px"}}><AnchorLink href="#footer">
+                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", backgroundColor: "rgb(0,0,0)", //Browsers antiguos
+ color: "white"}}>Contacto</Box>
+                </AnchorLink></Box>
+
+               
+               
+                
               </Toolbar>{" "}
             </Box>
             <Box sx={{ color: "white", display: "flex", alignItems: 'center' }}>
               <Box >
-                <Box><WhatsAppIcon /> <FacebookIcon /> <EmailIcon />{" "}
-                <LocationOnIcon /></Box>
+                <Box>
+                  <IconButton href="https://www.facebook.com/profile.php?id=100063636700329" target="_blank"> <FacebookIcon fontSize="large" sx={{color: "#4267B2"}}/> </IconButton>
+
+          
+                  
+                 
+                </Box>
               </Box>
             </Box>
           </Box>

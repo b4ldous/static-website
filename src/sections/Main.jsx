@@ -8,7 +8,7 @@ const Main = () => {
     <Box
       sx={{
         backgroundImage: `url(${image})`,
-        height: { xs: "50vh", md: "100vh" },
+        height: "100vh",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -26,7 +26,7 @@ const Main = () => {
           sx={{
             padding: "20px",
             background: "rgba(0, 0, 0, .5)",
-            width: 0.5,
+            width: {xs: .75, md: .5},
             borderRadius: "5px",
           }}
         >
