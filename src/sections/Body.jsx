@@ -7,7 +7,7 @@ const Body = () => {
   return (
     <Box id='body'>
       <br></br>
-      <Box sx={{marginTop: {xs:"50px", md: "100px"}}}>
+      <Box sx={{marginTop: {xs:"50px", md: "100px"}, marginBottom: {xs: "50px", md: "100px"}}}>
       <Box
             sx={{
               typography: "h3",

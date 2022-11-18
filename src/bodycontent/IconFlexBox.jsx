@@ -2,6 +2,8 @@ import React from 'react'
 import Box from '@mui/material/Box'
 import FacebookContact from './FacebookContact'
 import WhatsappContact from './WhatsappContact'
+import MailContact from './MailContact'
+import LocationContact from './LocationContact'
 
 const IconFlexBox = () => {
   return (
@@ -14,8 +16,8 @@ const IconFlexBox = () => {
 
                 <Box><FacebookContact/></Box>
                 <Box><WhatsappContact/></Box>
-                <Box>3</Box>
-                <Box>4</Box>
+                <Box><MailContact/></Box>
+                <Box><LocationContact/></Box>
 
 
 
