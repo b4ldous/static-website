@@ -106,22 +106,7 @@ function App(props) {
                 
               </Toolbar>{" "}
             </Box>
-            <Box sx={{ color: "white", display: "flex", alignItems: "center" }}>
-              <Box>
-                <Box>
-                  <IconButton
-                    href="https://www.facebook.com/profile.php?id=100063636700329"
-                    target="_blank"
-                  >
-                    {" "}
-                    <FacebookIcon
-                      fontSize="large"
-                      sx={{ color: "#4267B2" }}
-                    />{" "}
-                  </IconButton>
-                </Box>
-              </Box>
-            </Box>
+            
           </Box>
         </Container>
       </AppBar>

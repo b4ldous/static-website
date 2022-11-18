@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Box from "@mui/material/Box"
+import IconFlexBox from '../bodycontent/IconFlexBox';
 
 const Body = () => {
   return (
@@ -17,7 +18,7 @@ const Body = () => {
           >
             Contacto
           </Box>
-          <Box>Contacto</Box>
+          <Box><IconFlexBox/></Box>
     
    
 
