@@ -2,6 +2,8 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import MediaCardFirst from "./MediaCardFirst";
 import MediaCardWindows from "./MediaCardWindows";
+import MediaCardDoor from "./MediaCardDoor";
+import MediaCardPorton from "./MediaCardPorton";
 
 const GridForMediaCards = () => {
   return (
@@ -17,9 +19,11 @@ const GridForMediaCards = () => {
           {" "}
         </Grid>
         <Grid item xs={12} md={6}>
+          <MediaCardDoor/>
         {" "}
         </Grid>
         <Grid item xs={12} md={6}>
+          <MediaCardPorton/>
         {" "}
         </Grid>
       </Grid>

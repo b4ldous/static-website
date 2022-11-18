@@ -1,5 +1,5 @@
 import React from 'react'
-import Lorem from '../Lorem'
+
 import Box from "@mui/material/Box"
 
 const Body = () => {
@@ -15,9 +15,9 @@ const Body = () => {
               marginBottom: "100px",
             }}
           >
-            Galeria
+            Contacto
           </Box>
-          <Box>Aqui va la galeria</Box>
+          <Box>Contacto</Box>
     
    
 

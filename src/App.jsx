@@ -99,25 +99,11 @@ function App(props) {
                         color: "white",
                       }}
                     >
-                      Galeria
-                    </Box>
-                  </AnchorLink>
-                </Box>
-                <Box sx={{ ml: "5px" }}>
-                  <AnchorLink href="#footer">
-                    <Box
-                      component="button"
-                      sx={{
-                        padding: "10px",
-                        borderRadius: "50px",
-                        backgroundColor: "rgba(0,0,0, .5)", //Browsers antiguos
-                        color: "white",
-                      }}
-                    >
                       Contacto
                     </Box>
                   </AnchorLink>
                 </Box>
+                
               </Toolbar>{" "}
             </Box>
             <Box sx={{ color: "white", display: "flex", alignItems: "center" }}>
