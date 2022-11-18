@@ -7,13 +7,19 @@ const Body = () => {
     <Box id='body'>
       <br></br>
       <Box sx={{marginTop: {xs:"50px", md: "100px"}}}>
-      Galeria
+      <Box
+            sx={{
+              typography: "h3",
+              textAlign: "center",
+              fontWeight: 1000,
+              marginBottom: "100px",
+            }}
+          >
+            Galeria
+          </Box>
+          <Box>Aqui va la galeria</Box>
     
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
+   
 
 
 

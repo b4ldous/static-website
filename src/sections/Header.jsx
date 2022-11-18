@@ -1,16 +1,28 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Lorem from "../Lorem";
-import { Divider } from "@mui/material";
+
+import GridForMediaCards from "../headercontet/GridForMediaCards";
 
 const Header = () => {
   return (
     <>
       <Box id="header">
         <br></br>
-        <Box sx={{marginTop: {xs:"50px", md: "100px"}}}>Products</Box>
-        <Lorem />
-        <Lorem />
+        <Box sx={{ marginTop: { xs: "50px", md: "100px" } }}>
+          <Box
+            sx={{
+              typography: "h3",
+              textAlign: "center",
+              fontWeight: 1000,
+              marginBottom: "100px",
+            }}
+          >
+            Productos
+          </Box>
+          <Box>
+            <GridForMediaCards />
+          </Box>
+        </Box>
       </Box>
     </>
   );

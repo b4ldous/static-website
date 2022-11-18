@@ -8,12 +8,19 @@ const Footer = () => {
     <Box id='footer'>
       <br></br>
       <Box sx={{marginTop: {xs:"50px", md: "100px"}}}>
-      Contacto
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
-    <Lorem/>
-
+      <Box
+            sx={{
+              typography: "h3",
+              textAlign: "center",
+              fontWeight: 1000,
+              marginBottom: "100px",
+            }}
+          >
+            Contacto
+          </Box>
+          <Box>Aqui va Contacto</Box>
+    
+   
 
       </Box>
      

@@ -4,7 +4,6 @@ import WelcomePage from "./WelcomePage";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-
 import CssBaseline from "@mui/material/CssBaseline";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
@@ -16,7 +15,6 @@ import Main from "./sections/Main";
 
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { IconButton } from "@mui/material";
-
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -73,33 +71,68 @@ function App(props) {
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
             <Box>
               <Toolbar>
-
-                  <Box sx={{ml: "5px"}}> <AnchorLink href="#header">
-                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgba(0,0,0, .5)", //Browsers antiguos
- color: "white"}}>Productos</Box>
-                </AnchorLink></Box>
-                  <Box sx={{ml: "5px"}}> <AnchorLink href="#body">
-                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", background: "rgba(0,0,0, .5)", //Browsers antiguos
- color: "white"}} >Galeria</Box>
-                </AnchorLink></Box>
-                  <Box sx={{ml: "5px"}}><AnchorLink href="#footer">
-                  <Box component="button" sx={{padding: "10px", borderRadius: "50px", backgroundColor: "rgba(0,0,0, .5)", //Browsers antiguos
- color: "white"}}>Contacto</Box>
-                </AnchorLink></Box>
-
-               
-               
-                
+                <Box sx={{ ml: "5px" }}>
+                  {" "}
+                  <AnchorLink href="#header">
+                    <Box
+                      component="button"
+                      sx={{
+                        padding: "10px",
+                        borderRadius: "50px",
+                        background: "rgba(0,0,0, .5)", //Browsers antiguos
+                        color: "white",
+                      }}
+                    >
+                      Productos
+                    </Box>
+                  </AnchorLink>
+                </Box>
+                <Box sx={{ ml: "5px" }}>
+                  {" "}
+                  <AnchorLink href="#body">
+                    <Box
+                      component="button"
+                      sx={{
+                        padding: "10px",
+                        borderRadius: "50px",
+                        background: "rgba(0,0,0, .5)", //Browsers antiguos
+                        color: "white",
+                      }}
+                    >
+                      Galeria
+                    </Box>
+                  </AnchorLink>
+                </Box>
+                <Box sx={{ ml: "5px" }}>
+                  <AnchorLink href="#footer">
+                    <Box
+                      component="button"
+                      sx={{
+                        padding: "10px",
+                        borderRadius: "50px",
+                        backgroundColor: "rgba(0,0,0, .5)", //Browsers antiguos
+                        color: "white",
+                      }}
+                    >
+                      Contacto
+                    </Box>
+                  </AnchorLink>
+                </Box>
               </Toolbar>{" "}
             </Box>
-            <Box sx={{ color: "white", display: "flex", alignItems: 'center' }}>
-              <Box >
+            <Box sx={{ color: "white", display: "flex", alignItems: "center" }}>
+              <Box>
                 <Box>
-                  <IconButton href="https://www.facebook.com/profile.php?id=100063636700329" target="_blank"> <FacebookIcon fontSize="large" sx={{color: "#4267B2"}}/> </IconButton>
-
-          
-                  
-                 
+                  <IconButton
+                    href="https://www.facebook.com/profile.php?id=100063636700329"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FacebookIcon
+                      fontSize="large"
+                      sx={{ color: "#4267B2" }}
+                    />{" "}
+                  </IconButton>
                 </Box>
               </Box>
             </Box>
